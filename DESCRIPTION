@@ -1,0 +1,18 @@
+Package: Clotho
+Title: Tools for effective population size computation
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Florent", "Bled", , "Florent.Bled@myfwc.com", role = c("cre", "aut"),
+           comment = c(ORCID = "0000-0002-1686-0617")),
+    person("Mike", "Tringali", , "Mike.Tringali@MyFWC.com", role = "ctb")
+  )
+Description: Clotho, named after one of the three Fates who spins the
+    thread of life is used to estimate initial population size based on
+    effective population size, age-sex specific survival probability, as
+    well as simulate and visualize populations, either via R or through a
+    shiny app interface.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
